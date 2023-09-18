@@ -1,0 +1,12 @@
+#app{
+  display: block;
+}
+@media (min-width: 768px) {
+  #app{
+    display: flex;
+    align-items:stretch;
+  }
+}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
